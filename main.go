@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
 
-	"github.com/albertodanielr1/godesde0/ejercicios"
+	"github.com/albertodanielr1/godesde0/files"
 )
 
 func main() {
@@ -25,10 +25,19 @@ func main() {
 		fmt.Println("esto es darwing")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
 	numero, texto := ejercicios.ConvNumerico("ffff")
 	fmt.Println(numero)
 	fmt.Println(texto)
+
+	teclado.IngresoNumero()*/
+
+	//fmt.Println(ejercicios.TablaDeMultiplicar())
+
+	//files.GrabaTabla()
+	//files.SumaTabla()
+
+	files.LeoArchivo()
 
 }
